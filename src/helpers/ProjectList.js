@@ -7,6 +7,7 @@ export const ProjectList = [
     name: "Blackjack Game",
     image: Proj1,
     skills: "C++",
+    link: 'https://github.com/fei-felicia-chen/BLACKJACK',
   },
   {
     name: "Ecommerce Website",
