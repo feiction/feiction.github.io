@@ -10,12 +10,12 @@ export const ProjectList = [
     link: 'https://github.com/fei-felicia-chen/BLACKJACK',
   },
   {
-    name: "Ecommerce Website",
+    name: "abc",
     //image: Proj2,
     skills: "React,Node.js,MongoDB",
   },
   {
-    name: "Spotify Clone",
+    name: "abc",
     //image: Proj3,
     skills: "React,Node.js,MongoDB,SpotifyAPI",
   },
