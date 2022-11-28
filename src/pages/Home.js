@@ -13,8 +13,13 @@ function Home() {
           <p>A computer science student at McGill University who loves learning and creating</p>
           <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/chen-felicia/')}/>
           <EmailIcon onClick={() => window.open('mailto:felicia.qf.chen@gmail.com')}/>
-          <GithubIcon onClick={() => window.open('https://github.com/fei-felicia-chen')}/>
+          <GithubIcon onClick={() => window.open('https://github.com/fei-felicia-chen')} />
         </div>
+        <div>
+            <a href="https://1drv.ms/b/s!AkM4DQZVxDWihU2GZffghlhIRzNM?e=6hwtof" target="_blank" rel="noreferrer" className="BUTTON_XIV">
+              View my resume
+            </a>
+          </div>
       </div>
       <div className="skills">
         <center><h1> About me </h1></center>
