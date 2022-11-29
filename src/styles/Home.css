@@ -57,6 +57,7 @@ body {
     display: inline-block;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
+    cursor: pointer
 /*   background: #0671B7;
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
