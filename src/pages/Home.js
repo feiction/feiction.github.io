@@ -3,6 +3,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import Resume from "../assets/FeliciaChen_Resume.pdf"
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
           <GithubIcon onClick={() => window.open('https://github.com/fei-felicia-chen')} />
         </div>
         <div>
-            <a href="https://1drv.ms/b/s!AkM4DQZVxDWihU2GZffghlhIRzNM?e=6hwtof" target="_blank" rel="noreferrer" className="BUTTON_XIV">
+            <a href={Resume} target="_blank" rel="noreferrer" className="BUTTON_XIV">
               View my resume
             </a>
           </div>
