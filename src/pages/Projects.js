@@ -8,11 +8,11 @@ function Projects() {
   return (
     <div className="projects">
       <h1> Some of my projects...</h1>
-      <h2> Note: this section is in progress, to see my projects, visit <a href="https://github.com/fei-felicia-chen">my GitHub</a></h2>
+      <h2> Note: this section is in progress, to see my projects, visit <a href="https://github.com/fei-felicia-chen" target="_blank" rel="noreferrer">my GitHub</a></h2>
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
-            <ProjectItem id={idx} name={project.name} image={project.image} />
+            <ProjectItem description={ project.description } name={project.name} image={project.image} link={project.link} />
           );
         })}
       </div>

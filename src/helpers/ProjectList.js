@@ -6,7 +6,7 @@ export const ProjectList = [
   {
     name: "Blackjack Game",
     image: Proj1,
-    skills: "C++",
+    description: "A console-based simulation of Casino Blackjack game using C++'s OOP",
     link: 'https://github.com/fei-felicia-chen/BLACKJACK',
   },
   {
