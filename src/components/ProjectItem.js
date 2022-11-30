@@ -1,8 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 function ProjectItem({ image, name, description, link }) {
-  const navigate = useNavigate();
   return (
     <div className="projectItem">
       <div id="all">
@@ -11,7 +9,7 @@ function ProjectItem({ image, name, description, link }) {
     <div class="mask">
       <h2>{name}</h2>
       <p>{description}</p>
-      <a href={link} class="info" target="_blank" rel="noreferrer">Read More</a>
+      <a href={link} class="info" target="_blank" rel="noreferrer">Read more</a>
     </div>
         </div>
         </div>

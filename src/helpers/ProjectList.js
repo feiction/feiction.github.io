@@ -1,6 +1,6 @@
 import Proj1 from "../assets/proj1.jpg";
-/*import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp"; */
+import Proj2 from "../assets/proj2.png";
+/*import Proj3 from "../assets/proj3.webp"; */
 
 export const ProjectList = [
   {
@@ -10,13 +10,13 @@ export const ProjectList = [
     link: 'https://github.com/fei-felicia-chen/BLACKJACK',
   },
   {
-    name: "abc",
-    //image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    name: "Face Authenticator",
+    image: Proj2,
+    description: "A face authenticating web application done during a hackathon in a team of 4",
+    link: 'https://github.com/fei-felicia-chen/codejam2022',
   },
   {
-    name: "abc",
+    name: "Snake Game",
     //image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
   },
 ];

@@ -17,7 +17,7 @@ function Home() {
           <GithubIcon onClick={() => window.open('https://github.com/fei-felicia-chen')} />
         </div>
         <div>
-            <a href={Resume} target="_blank" rel="noreferrer" className="BUTTON_XIV">
+            <a href={Resume} target="_blank" rel="noreferrer" className="button">
               View my resume
             </a>
           </div>
@@ -41,11 +41,6 @@ function Home() {
               </span>
             </center>
           </li>
-{/*       
-          <li className="item">
-            <h2>Languages</h2>
-            <span> JavaScript, Java, Python, C#, C, C++, Go</span>
-          </li> */}
         </ol>
       </div>
     </div>
