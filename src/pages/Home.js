@@ -23,7 +23,7 @@ function Home() {
           </div>
       </div>
       <div className="skills">
-        <center><h1> About me </h1></center>
+        <h1> About me </h1>
         <div className="prompt">
           <p> Hello! My name is Felicia and I am a student at McGill University pursuing a degree in Computer Science.
             I currently have interests in game dev, web dev, data science, and cybersecurity, and I am always willing to expand my knowledge to any tech.
@@ -35,11 +35,10 @@ function Home() {
           </div>
         <ol className="list">
           <li className="item">
-            <center><h2> Languages and Tools </h2>
+            <h2> Languages and Tools </h2>
             <span>
-              Python, C, C++, C#, Java, Go, JavaScript, ReactJS
+              Python, C, C++, C#, Java, Go, JavaScript, HTML, CSS, ReactJS
               </span>
-            </center>
           </li>
         </ol>
       </div>
